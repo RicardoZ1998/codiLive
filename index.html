@@ -8,27 +8,17 @@
   </head>
   <body>
     <div id="app">
-    
       <div class="grid">
-      
-        <div>
-          <textarea id="html" placeholder="html"></textarea>
-        </div>
+        <div class="editor" id="html"></div>
+        <div class="editor" id="js"></div>
+        <div class="editor" id="css"></div>
 
         <div>
-          <textarea id="js" placeholder="js"></textarea>
+          <iframe srcdoc=""></iframe>
         </div>
-        
-        <div>
-          <textarea id="css" placeholder="css"></textarea>
-        </div>
-        
-        <div>
-        <iframe srcdoc="<h1>Hola srdoc</h1>"></iframe>
-        </div>
-         <div class="vertical-gutter"></div>
-         <div class="horizontal-gutter"></div>
 
+        <div class="vertical-gutter"></div>
+        <div class="horizontal-gutter"></div>
       </div>
     </div>
     <script type="module" src="/main.js"></script>
